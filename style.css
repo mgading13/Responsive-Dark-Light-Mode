@@ -1,0 +1,76 @@
+*,
+html,
+body {
+  font-family: "Caveat", cursive;
+}
+
+body {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid black;
+  margin-bottom: ;
+}
+
+nav h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+nav ul{
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.3rem;
+}
+
+.btn button {
+  border: none;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+}
+
+section h1 {
+  font-weight: bold;
+  font-size: 45px;
+  width: 400px;
+}
+
+section ul li p {
+  font-size: 1.3rem;
+  width: 400px;
+  padding-bottom: 20px;
+  color: rgb(200, 191, 191);
+}
+
+section ul li h1 span {
+  color: antiquewhite;
+}
+section ul {
+  list-style: none;
+  display: flex;
+  gap: 35rem;
+  padding-left: 30px;
+  margin-top: 4rem;
+}
+
+/* hover */
+nav ul li:hover {
+    color: antiquewhite;
+    transition: 0.3s;
+}
+
+.btn button:hover{
+    transition: 0.5s;
+    padding: 15px;
+}
