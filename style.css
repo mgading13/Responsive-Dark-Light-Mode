@@ -22,6 +22,7 @@ body {
   background-color: var(--bg);
   overflow-x: hidden;
   transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
 }
 
 nav {
@@ -247,6 +248,50 @@ nav ul li:hover {
   transition: 0.3s;
   transform: scale(1.05);
 }
+
+/* Start Footer */
+footer {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 2px solid var(--primary);
+  text-align: center;
+  gap: 6.5em;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.2em;
+}
+
+footer ul li:hover {
+  transform: scale(1.10);
+  color: var(--secondary);
+  transition: 0.3s;
+}
+footer ul li a:hover {
+  color: var(--secondary);
+}
+
+footer h3 {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* End Footer */
 
 /* Responsive */
 
