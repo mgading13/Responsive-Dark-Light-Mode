@@ -11,6 +11,10 @@ if (darkMode === "enabled") {
   bigWrapper.classList.add("dark");
   bigWrapper.classList.remove("light");
   themeIcon.src = "assets/moon.png";
+} else {
+  bigWrapper.classList.add("light");
+  bigWrapper.classList.remove("dark");
+  themeIcon.src = "assets/summer.png";
 }
 
 function toggleDarkMode() {
@@ -19,6 +23,7 @@ function toggleDarkMode() {
     bigWrapper.classList.add("dark");
     themeIcon.src = "assets/moon.png";
     localStorage.setItem("darkMode", "enabled");
+  } else {
     bigWrapper.classList.remove("dark");
     bigWrapper.classList.add("light");
     themeIcon.src = "assets/summer.png";
